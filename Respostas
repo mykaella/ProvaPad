@@ -1,0 +1,103 @@
+// Questão 1
+
+var result = someFun ({someProperty: 'entrevista'}, função (valor) {
+
+    
+
+    console.log ('Isto aponta para' + valor);
+
+});
+
+console.log ('Resultado é', resultado);
+
+function someFun (teste, teste2) {
+
+   
+
+    teste2 (teste.someProperty)
+
+    return 1;
+
+}
+
+// Questão 2
+
+var someFn = função (numero) 
+
+    {
+
+        var valor = numero;
+
+        função de retorno (incremento)
+
+        {
+
+            valor + = incremento;
+
+            valor de retorno;
+
+        }
+
+    }
+
+    var contador = someFn (1);
+
+    console.log ("Primeira chamada", contador (3));
+
+    console.log ("segunda chamada", contador (1));
+
+    console.log ("Terceira chamada", contador (5));
+
+// Questão 3
+
+Calculadora de função (n1, n2)
+
+{
+
+  retorno de chamada de retorno => retorno de chamada (n1, n2)
+
+}
+
+// Questão 4
+
+var A = 5;
+
+var B = 10;
+
+if (A == 5)
+
+{
+
+  seja A = 4;
+
+  var B = 1;
+
+  console.log (A);
+
+  console.log (B);
+
+}
+
+console.log (A);
+
+console.log (B);
+
+// O resultado será: 4,1,5,1
+
+// Questão 5
+
+função multiplicar (numero)
+
+{
+
+     para (var i = 1; i <10; i ++)
+
+     {
+
+         console.log (i * numero)
+
+     }
+
+}
+
+console.log (multiplicar (2))
